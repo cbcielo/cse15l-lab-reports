@@ -1,2 +1,2 @@
 This is Twix
-![Image](Wk2Screenshot.png)	
+![Image](/Users/Caitlyn/Desktop/Wk2Screenshot.png)	
