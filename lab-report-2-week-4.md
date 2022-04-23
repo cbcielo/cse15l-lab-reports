@@ -4,6 +4,7 @@
 
 ## BUG 1
 
+## Code Changes 
 ![Image](codechange1.png)
 
 Click [here](https://github.com/cbcielo/markdown-parser/blob/main/test-file2.md) for the link to the test file with *failure-inducing input*
@@ -17,14 +18,18 @@ In this case, the bug is caused by the two empty lines of code that are after th
 
 ## BUG 2
 
+## Code Changes 
 
-(INSERT SCREENSHOT 1 HERE)
+![Image](codechange2.png)
 
-(INSERT LINK TO FAILURE INDUCING INPUT)
+Click [here](https://github.com/cbcielo/markdown-parser/blob/main/test-file3.md) for the link to the test file with *failure-inducing input*
 
 **Symptom of the Input**:
+Index Out of Bounds Error!
+![Image](symptom2.png)
 
 **The Relationship Between the Bug, Symptom, and Failure-Inducing Input:**
+The failure inducing input is that the test file does not contain any links, or open parenthesis, which the program checks for. The bug is caused by this because the program does not address edge cases that deal with the open parenthesis. The symptom of this is that it causes and index error (`StringIndexOutofBoundsException`).
 
 ## BUG 3
 
