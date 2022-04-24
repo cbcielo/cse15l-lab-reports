@@ -33,13 +33,19 @@ The failure inducing input is that the test file does not contain any links, or 
 
 ## BUG 3
 
-(INSERT SCREENSHOT 1 HERE)
+## Code Changes 
+![Image](codechange3.png)
 
-(INSERT LINK TO FAILURE INDUCING INPUT)
+Click [here](https://github.com/cbcielo/markdown-parser/blob/main/test-file4.md) for the link to the test file with *failure-inducing input*
 
 **Symptom of the Input**:
+Index out of bounds error!
+
+![Image](symptom3.png)
 
 **The Relationship Between the Bug, Symptom, and Failure-Inducing Input:**
+
+In this case, the bug is that the program fails to check for closed parenthesis after the brackets (ex: `[]()`) as the failure inducing input is simply just enclosed by brackets. The symptom of this is the `IndexOutofBoundsException` that is thrown in the terminal. Because the test file is missing this, the `closeParen` index becomes -1 and causes the symptom to show.
 
 
 
