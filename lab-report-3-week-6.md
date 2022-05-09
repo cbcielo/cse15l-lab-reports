@@ -6,12 +6,12 @@ Hello! This weeks lab report focuses on improving work efficiency though:
 
 Let's get started!
 
-## StreamLining ssh Configuration
+## StreamLining `ssh Configuration`
 
-* show .ssh/config file and how you edited it with vscode
+* show `.ssh/config` file and how you edited it with vscode
 
-Here I am showing my config file and the contents I editted with
-I used
+Here I am showing my `config` file and the contents I edited with
+I used:
 
 `Host ieng`
 	
@@ -22,18 +22,18 @@ I used
 ![Image](findfile.png)
 ![Image](changed.png)
 
-* show ssh command log in using just the alias you chose
+* show `ssh` command log in using just the alias you chose
 
 I then logged in using `ssh ieng`
 
 ![Image](loginieng6.png)
 
-* show an scp command copying the file to your account using the alias you chose
+* show an `scp` command copying the file to your account using the alias you chose
 
 I then copied the `WhereAmI.java` file as an example 
 ![Image](copyfile.png)
 
-## Setting Up Github Access Through ieng6
+## Setting Up Github Access Through `ieng6`
 
 * show where the public key you made is stored on Github and in your user account (screenshot)
 
@@ -46,7 +46,7 @@ Here is where the private key is stored
 
 ![Image](showin.png)
 
-* show running git commands to commit/push a change to Github while logged into ieng6 account
+* show running git commands to commit/push a change to Github while logged into `ieng6` account
 
 Here I ran the `git commit` and `git add .` and `rm` to remove an empty test file I had made.
 
