@@ -10,7 +10,8 @@ Let's get started!
 
 * show `.ssh/config` file and how you edited it with vscode
 
-Here I am showing my `config` file and the contents I edited with
+First I located the .ssh file on my device and opened the config file. Here I am showing my `config` file and the contents I edited with.
+
 I used:
 
 `Host ieng`
@@ -19,27 +20,31 @@ I used:
 	
 `User cs15lsp22amh`
 
+in order to set up for the next steps.
+
 ![Image](findfile.png)
 ![Image](changed.png)
 
 * show `ssh` command log in using just the alias you chose
 
-I then logged in using `ssh ieng`
+I then logged in using `ssh ieng` in order to access the remote server and run the rest of the tasks from within!
 
 ![Image](loginieng6.png)
 
 * show an `scp` command copying the file to your account using the alias you chose
 
-I then copied the `WhereAmI.java` file as an example 
+I then copied the `WhereAmI.java` file as an example into the remote server to work in there by using `scp WhereAmI.java`
+
 ![Image](copyfile.png)
 
 ## Setting Up Github Access Through `ieng6`
 
 * show where the public key you made is stored on Github and in your user account (screenshot)
 
-Here is where the public key is stored in github 
+Here is where the public key is stored in github. I went to my account -> settings -> SSH and GPG keys and created the public key.
 
 ![Image](ingit.png)
+
 * show where the private key you made is stored on your user acccount but not its contents (screenshot)
 
 Here is where the private key is stored
@@ -48,7 +53,7 @@ Here is where the private key is stored
 
 * show running git commands to commit/push a change to Github while logged into `ieng6` account
 
-Here I ran the `git commit` and `git add .` and `rm` to remove an empty test file I had made.
+Here I ran the `git commit` and `rm` to remove an empty test file I had made. I called this testfile.txt.
 
 ![Image](gitcommit.png)
 ![Image](removefile.png)
@@ -59,17 +64,19 @@ The link for resuting commit can be found [here](https://github.com/cbcielo/mark
 
 * show copying whole markdown parse directory to ieng account
 
-Here I used `pwd`, `ls`, and `scp -r . ieng6:~/markdown-parse` to copy the file to the remote account
+Here I used `pwd`, `ls`, and `scp -r . ieng6:~/markdown-parse` to copy the Markdown Parse file to the remote account. We can see all the files being copied.
 
 ![Image](copy1.png)
 
 * show logging into ieng6 account after this and compiling/running tests for repository 
 
-Here I compiled and ran `MarkdownParseTest.java`
+Here I compiled and ran `MarkdownParseTest.java` 
 
 ![Image](run.png)
 
 * show (like in last step of first lab) combining `scp`, `;`, and `ssh` to copy the whole directory and run the tests in one line
+
+Here we combined the `scp -r` command and the compile and test lines on one command line by using `;` to separate each command. This allows us to save time and run multiple commands in one go!
 
 (idk why the quality is low)
 
