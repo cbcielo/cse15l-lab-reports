@@ -68,4 +68,9 @@ Here I used `pwd`, `ls`, and `scp -r . ieng6:~/markdown-parse` to copy the file 
 Here I compiled and ran `MarkdownParseTest.java`
 
 ![Image](run.png)
-* show (like in last step of first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line
+
+* show (like in last step of first lab) combining `scp`, `;`, and `ssh` to copy the whole directory and run the tests in one line
+
+(idk why the quality is low)
+
+![Image](sameline.png)
