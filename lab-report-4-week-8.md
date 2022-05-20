@@ -5,16 +5,20 @@
 [Link to the reviewed repository from week 7]()
 
 ## Snippet 1
-* Expected Output:
+* Expected Output: [`google.com]
+
 * Created Test:
 ![Image]()
+
 * My Implementation Output:
 ![Image]()
+
 * Week 7 Output:
 *[Image]()
 
 ## Snippet 2
-* Expected Output:
+* Expected Output: [a.com, a.com(()), example.com]
+
 * Created Test:
 ![Image]()
 * My Implementation Output:
