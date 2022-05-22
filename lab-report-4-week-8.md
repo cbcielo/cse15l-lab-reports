@@ -1,39 +1,39 @@
 # Lab Report 4 Week 8
 
-[Link to my markdown-parse repository]()
+[Link to my markdown-parse repository](https://github.com/cbcielo/markdown-parser)
 
-[Link to the reviewed repository from week 7]()
+[Link to the reviewed repository from week 7 lab](https://github.com/aliciadaniellet/markdown-parser)
 
 ## Snippet 1
-* Expected Output: [`google.com]
+* Expected Output: [`google.com, google.com, ucsd.edu]
 
 * Created Test:
 ![Image]()
 
 * My Implementation Output:
-![Image]()
+![Image](snippet1.2.png)
 
 * Week 7 Output:
-*[Image]()
+![Image](snippet1.png)
 
 ## Snippet 2
-* Expected Output: [a.com, a.com(()), example.com]
+* Expected Output: [b.com, a.com(()), example.com]
 
 * Created Test:
 ![Image]()
 * My Implementation Output:
 ![Image]()
 * Week 7 Output:
-*[Image]()
+![Image](snippet2.2.png)
 
 ## Snippet 3
-* Expected Output:
+* Expected Output: [https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedu, https://cse.ucsd.edu]
 * Created Test:
 ![Image]()
 * My Implementation Output:
 ![Image]()
 * Week 7 Output:
-*[Image]()
+![Image](snippet3.3.png)
 
 ## Questions to be Answered
 1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
