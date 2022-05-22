@@ -8,7 +8,7 @@
 * Expected Output: [`google.com, google.com, ucsd.edu]
 
 * Created Test:
-![Image]()
+![Image](snip1test.png)
 
 * My Implementation Output:
 ![Image](snippet1.2.png)
@@ -20,18 +20,18 @@
 * Expected Output: [b.com, a.com(()), example.com]
 
 * Created Test:
-![Image]()
+![Image](snip2test.png)
 * My Implementation Output:
-![Image]()
+![Image](snip2.png)
 * Week 7 Output:
 ![Image](snippet2.2.png)
 
 ## Snippet 3
 * Expected Output: [https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedu, https://cse.ucsd.edu]
 * Created Test:
-![Image]()
+![Image](snip3test.png)
 * My Implementation Output:
-![Image]()
+![Image](snip3.png)
 * Week 7 Output:
 ![Image](snippet3.3.png)
 
